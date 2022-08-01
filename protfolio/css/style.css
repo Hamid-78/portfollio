@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.align-center{
+    align-items: center;
+}
+.heading h3{
+    font-weight: 700;
+    font-size: 16px;
+    color: #F8991C;
+}
+.heading h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #000000;
+}
+.btn{
+    padding: 12px 41px;
+    background-color: #F8991C;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline;
+
+
+
+}
+/* nav starts*/
+nav .logo{
+    width: 40%;
+
+}
+nav .menu{
+    width: 60%;
+    
+}
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li a{
+    display: inline-block;
+    padding: 50px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+   
+}
+/* nav ends*/
+/* banner starts*/
+
+#banner{
+    height: 650px;
+    background-color: #F8F8F8;
+}
+#banner .banner-cnt{
+    width: 60%;
+    
+}
+#banner .banner-img{
+    width: 40%;
+}
+#banner .banner-cnt h4{
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+
+} 
+#banner .banner-cnt h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000; 
+}
+#banner .banner-cnt p{
+   
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 30px;
+
+    color: #000000;
+
+}
+#banner .banner-cnt .sociallinks{
+    margin-top: 170px;
+    position: relative;
+    width: 280px;
+    
+}
+#banner .banner-cnt .sociallinks p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#banner .banner-cnt .sociallinks .overlaysociallinks{
+    position: absolute;
+    top: -20px;
+    right: 36px;
+}
+/* banner ends*/
+
+/* about starts*/
+#about{
+    margin-top: 75px;
+}
+#about .about-img{
+    width: 40%;
+    
+}
+#about .about-img img{
+    width: 100%;
+}
+#about .about-cnt{
+    width: 60%;
+    padding-left: 43px;
+
+}
+#about .about-cnt P{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    color: #000000;
+    margin: 45px 0;
+}
+#about .about-cnt a{
+    margin-right: 60px;
+    
+}
+#about .about-cnt a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #F8991C;
+}
+#about .about-cnt .icons{
+    margin-top: 53PX;
+    margin-bottom: 106px;
+}
+#about .about-cnt .icons a{
+    display: inline;
+    padding-bottom: 20px;
+}
+
+
+/* about ends*/
